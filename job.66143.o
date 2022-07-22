@@ -1,0 +1,101 @@
+[2 2 2 ... 7 7 7]
+There are 781 chromophore pairs
+Starting singles energy calculation...
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+Finished in 66.86 s. Output written to y6/singles_energies.txt.
+Starting dimer energy calculation...
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+[2 2 2 ... 7 7 7]
+Finished in 2068.77 s. Output written to y6/dimer_energies.txt.
+Energies set.
+---------- KMC_ANALYZE ----------
+All figures saved in y6/kmc/figures
+---------------------------------
+Considering the transport of electron...
+Obtaining mean squared displacements...
+	Notice: The data from 1966 carriers were
+	discarded due to the carrier lifetime being more than double
+	(or less than half of) the specified carrier lifetime.
+Plotting distribution of electron displacements
+	Figure saved as electron_displacement_dist.png
+Calculating mobility...
+	Standard Error 0.0
+	Fitting r_val = -0.9999999999999998
+	Figure saved as lin_MSD_electron.png
+	Figure saved as semi_log_MSD_electron.png
+	Figure saved as log_MSD_electron.png
+	----------------------------------------
+	Electron mobility = -2.61E-03  +/- -5.98E-04 cm^2 V^-1 s^-1
+	----------------------------------------
+Calculating electron trajectory anisotropy...
+	----------------------------------------
+	Electron charge transport anisotropy: 0.050
+	----------------------------------------
+Plotting electron hop frequency distribution...
+	DYNAMIC CUT
+	Notice: No minima found in distribution. Cutoff set to None.
+	Cluster cut-off based on hop frequency set to None
+	Figure saved as total_hop_freq_electron.png
+Plotting electron net hop frequency distribution...
+	Figure saved as net_hop_freq_electron.png
+Plotting (total - net hops) discrepancy distribution...
+	There are 63 paths with one-way transport.
+	There are 148 paths with total - net < 10.
+	Figure saved as hop_discrepancy_electron.png
+Determining molecule IDs...
+Acceptor LUMO Level = -2.136 +/- 0.015
+Acceptor Delta E_ij mean = 0.000 +/- 0.005
+	Figure saved as acceptor_delta_E_ij.png
+	Notice: No minima found in distribution. Cutoff set to None.
+Neighbor histogram figure saved as neighbor_hist_acceptor.png
+	Notice: No minima found in distribution. Cutoff set to None.
+Orientation histogram figure saved as orientation_hist_acceptor.png
+Examining the donor material...
+	No material found. Continuing...
+Examining the acceptor material...
+Calculating clusters...
+	No cutoff provided: cluster cutoff set to 15.671
+	----------------------------------------
+	Acceptor: Detected 1 total
+	and 1 large clusters (size > 6).
+	Largest cluster size: 100 chromophores.
+	Ratio in "large" clusters: 1.00
+	----------------------------------------
+Mean intra-cluster acceptor rate: 3.603e+13+/-2.777e+11
+	Figure saved as acceptor_hopping_rate_clusters.png
+	Figure saved as acceptor_transfer_integral_clusters.png
+Mean inter-molecular acceptor rate: 3.603e+13+/-2.777e+11
+	Figure saved as acceptor_hopping_rate_clusters.png
+Plotting cluster size distribution...
+	Figure saved as acceptor_cluster_dist.png
+Writing CSV Output File...
+	CSV file written to y6/kmc/results.csv
